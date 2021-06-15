@@ -3,12 +3,13 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Google Homepage</title>
     </head>
     <body>
         <header>
-            <nav>
-                <ul>
+            <nav class="header-nav">
+                <ul class="header-menu">
                     <li>
                         <a href="https://mail.google.com/mail/?authuser=0&ogbl">Gmail</a>    
                     </li>
@@ -29,10 +30,10 @@
             </nav>
         </header>
         <main>
-            <img 
+            <img class="google-logo"
                 src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" 
                 alt="Google Logo">
-            <form>
+            <form class="search">
                 <label for="searchbar">
                     <img src="img/search_black_24dp.svg" alt="Search:">
                 </label>
@@ -44,7 +45,7 @@
                     I'm feeling lucky
                 </button>
             </form>
-            <div>
+            <div id="language">
                 <p>
                     Google offered in: 
                     <a href="https://www.google.com/setprefs?sig=0_EcdY0zNqQ4gcJg-3Zf1SS6o-1nk%3D&hl=ru&source=homepage&sa=X&ved=0ahUKEwjRi6zpyZbxAhU-AWMBHQqoCBAQ2ZgBCA0">русский</a>
@@ -53,11 +54,11 @@
             </div>
         </main>
         <footer>
-            <div>
+            <div id="country">
                 <p>Albania</p>
             </div>
-            <nav>
-                <ul>
+            <nav class="footer-nav">
+                <ul class="footer-left">
                     <li>
                         <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwix3P--lJrxAhUMhP0HHSypBvkQkNQCCA8&url=https%3A%2F%2Fabout.google%2F%3Futm_source%3Dgoogle-AL%26utm_medium%3Dreferral%26utm_campaign%3Dhp-footer%26fg%3D1&usg=AOvVaw1W4PB9uCCYWy6kpKqWe8hk">
                             About
@@ -78,9 +79,8 @@
                             How Search Works
                         </a>
                     </li>
-                    <li>
-
-                    </li>
+                </ul>
+                <ul class="footer-right">
                     <li>
                         <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwix3P--lJrxAhUMhP0HHSypBvkQ8awCCBI&url=https%3A%2F%2Fpolicies.google.com%2Fprivacy%3Fhl%3Den-AL%26fg%3D1&usg=AOvVaw2V_uj0p7St8X6bOmd50Ouc">
                             Privacy
